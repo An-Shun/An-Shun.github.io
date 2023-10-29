@@ -1,0 +1,66 @@
+:root {
+    --nav-height: 70px;
+}
+
+#navbar {
+    min-height: var(--nav-height);
+    color: black;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 0 5px #00000020;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+#navbar .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+#banner {
+    margin-top: var(--nav-height);
+}
+
+#banner img {
+    display: block;
+    width: 100%;
+    max-height: calc(70vh - var(--nav-height));
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    bottom: 55%;
+    width: 100%;
+    color: WHITE;
+}
+
+.banner-text b {
+    text-shadow: 4px 4px 5px black;
+    font-size: 2.5em;
+}
+
+.banner-text p {
+    font-size: 1.5em;
+}
+
+#background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.line{
+    display: block;
+    margin: auto;
+    width: 72px;
+    height: 4px;
+    border-top: #00A291 solid 4px;
+    margin-bottom: 20px;
+}
